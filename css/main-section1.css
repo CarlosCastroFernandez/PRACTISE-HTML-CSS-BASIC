@@ -1,0 +1,21 @@
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px black solid;
+    margin-top: 5px;
+    background: linear-gradient(#000000, rgba(0, 0, 0, 0.816));
+}
+.container-1-into{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color:yellow
+}

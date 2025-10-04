@@ -1,0 +1,48 @@
+:root{
+    --var-color-letter:white
+}
+
+header{
+    background-color: rgb(239, 200, 27);
+    color: var(--var-color-letter);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerh-into{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerh-into-img{
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--var-color-letter);
+    padding: 10px;
+  
+}
+
+nav a:hover{
+    border-bottom: 5px white solid;
+}
+.containerh-into-fin-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 14%;
+
+
+}
+.containerh-into-fin-menu p{
+    position: relative;
+    right: 10px;
+}
