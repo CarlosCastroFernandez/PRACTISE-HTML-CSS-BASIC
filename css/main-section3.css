@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    padding-top: 100px;
+    gap: 80px;
+    height: 80vh;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .container-3-into{
