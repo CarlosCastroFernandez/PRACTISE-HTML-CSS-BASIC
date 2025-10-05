@@ -120,5 +120,3 @@ La página está organizada en varias secciones principales:
 
 ---
 
-## Estructura de carpetas recomendada
-
