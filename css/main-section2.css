@@ -1,0 +1,32 @@
+.container-2{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(0, 0%, 90%);
+    border-bottom: 2px solid hsl(0, 0%, 70%);
+
+}
+
+.container-2-into{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 200px;
+    text-align: center;
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.item-into-container-2 h5{
+
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+@media (max-width:905px){
+    .container-2-into{
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+}
+
