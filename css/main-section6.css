@@ -33,6 +33,7 @@
 .container-6-into-flex-into input{
     border: none;
     background-color: transparent;
+    padding: 5px;
 }
 .container-6-into-flex-into button{
     border: none;
