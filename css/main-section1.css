@@ -1,10 +1,11 @@
 .container-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    border: 2px black solid;
+    gap: 20px;
     margin-top: 5px;
     background: linear-gradient(#000000, rgba(0, 0, 0, 0.816));
+    padding: 30px;
 }
 .container-1-into{
     display: flex;
@@ -17,11 +18,18 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 @media (max-width:905px){
     .container-1{
         padding-top: 40px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
     }
+    .container-1-into{
+        align-items: center;
+        text-align: center;
+    }
+
 }

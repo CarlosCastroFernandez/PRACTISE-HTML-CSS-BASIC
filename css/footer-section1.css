@@ -60,9 +60,14 @@
 @media (max-width:905px){
     .containerf-1{
       flex-direction: column;
-      height: 120vh;
     }
     .containerf-1-into{
         align-items: center;
+        text-align: center;
+    }
+    .containerf-1-into img{
+
+        width: 100px;
+        max-width: 200px;
     }
 }

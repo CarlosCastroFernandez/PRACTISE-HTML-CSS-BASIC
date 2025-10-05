@@ -28,4 +28,17 @@ button:hover{
 span{
     color:rgb(239, 200, 27);
 }
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+@media (max-width:905px){
+    img{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
 

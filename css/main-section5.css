@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    height: 80vh;
+     padding: 30px;
+    gap: 20px;
 }
 .container-5-into-flex{
     display: flex;
@@ -30,7 +30,19 @@
 
 @media (max-width:905px){
     .container-5{
-      flex-direction: column;
-      height: 120vh;
+        flex-direction: column-reverse;
+       height: 120vh;
+         padding: 10px;
+    }
+    .container-5-into-grid{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+
+    }
+    .container-5-into-flex{
+        justify-content: center;
+        align-items: center;
     }
 }
