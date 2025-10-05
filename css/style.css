@@ -3,6 +3,19 @@
 @import url(main-section2.css);
 @import url(main-section3.css);
 @import url(main-section4.css);
+@import url(main-section5.css);
 *{
     margin:0px
+}
+button{
+    max-width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(239, 200, 27);
+    color: white;
+    border: none;
+}
+span{
+    color:rgb(239, 200, 27);
 }

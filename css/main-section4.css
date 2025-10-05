@@ -24,12 +24,3 @@
     border-radius: 30px;
     background-color: rgb(239, 200, 27); 
 }
-.container-4-into button{
-    max-width: 100px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    background-color:rgb(239, 200, 27);
-    color: white;
-    border: none;
-}
