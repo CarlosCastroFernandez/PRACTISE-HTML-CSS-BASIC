@@ -11,3 +11,11 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media (max-width:905px){
+    .container-3{
+      flex-direction: column-reverse;
+      height: 120vh;
+    }
+}
+

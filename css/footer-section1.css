@@ -56,3 +56,13 @@
     position: relative;
     top:-8px;
 }
+
+@media (max-width:905px){
+    .containerf-1{
+      flex-direction: column;
+      height: 120vh;
+    }
+    .containerf-1-into{
+        align-items: center;
+    }
+}

@@ -24,3 +24,10 @@
     border-radius: 30px;
     background-color: rgb(239, 200, 27); 
 }
+
+@media (max-width:905px){
+    .container-4{
+      flex-direction: column;
+      height: 120vh;
+    }
+}

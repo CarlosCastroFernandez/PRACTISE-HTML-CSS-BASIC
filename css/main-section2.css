@@ -23,3 +23,11 @@
     font-size: 30px;
     margin-bottom: 8px;
 }
+
+@media (max-width:905px){
+    .container-2-into{
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+}
+

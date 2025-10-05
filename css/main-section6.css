@@ -42,3 +42,9 @@
     padding: 0px !important;
     border-radius: 0px;
 }
+
+@media (max-width:1237px){
+    .container-6 img{
+        display: none;
+    }
+}

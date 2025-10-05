@@ -16,3 +16,12 @@
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+@media (max-width:905px){
+    .container-1{
+        padding-top: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
