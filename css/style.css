@@ -6,8 +6,11 @@
 @import url(main-section5.css);
 @import url(main-section6.css);
 @import url(footer-section1.css);
+@import url(footer-section2.css);
 *{
-    margin:0px
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
 }
 button{
     max-width: 100px;

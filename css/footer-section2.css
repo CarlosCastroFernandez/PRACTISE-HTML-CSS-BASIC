@@ -1,0 +1,8 @@
+.containerf-2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
