@@ -1,0 +1,44 @@
+@import url("./header.css");
+@import url("./main-section1.css");
+@import url(main-section2.css);
+@import url(main-section3.css);
+@import url(main-section4.css);
+@import url(main-section5.css);
+@import url(main-section6.css);
+@import url(footer-section1.css);
+@import url(footer-section2.css);
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+button{
+    max-width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(239, 200, 27);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+   background-color: rgb(148, 124, 15);
+}
+span{
+    color:rgb(239, 200, 27);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+@media (max-width:905px){
+    img{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+

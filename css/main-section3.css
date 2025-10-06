@@ -1,0 +1,29 @@
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     padding: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.container-3-into{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width:905px){
+    .container-3{
+      flex-direction: column-reverse;
+      height: 120vh;
+        padding: 10px;
+    
+    }
+    .container-3-into{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
